@@ -147,8 +147,8 @@ same rules + same action
 The validator accepts only when the independently derived decision vector
 matches the leader vector exactly.
 
-The intended GenLayer primitive is a custom
-`gl.vm.run_nondet_unsafe(leader_fn, validator_fn)` pair.
+The frozen Studio RC7 / GenVM RC5 implementation uses the custom
+`gl.vm.run_nondet(leader_fn, validator_fn)` pair. The validator is fail-closed and converts contract-level validation errors to `False`; executor-level validator errors likewise produce consensus disagreement.
 
 ## Deterministic authorization algorithm
 

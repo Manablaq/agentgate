@@ -4,12 +4,12 @@ Consensus Authorization Firewall for Autonomous AI Agents on GenLayer.
 
 ## Status
 
-**Progress 2/5 — contract implementation and local certification in progress.**
+**Progress 2/5 — contract implementation and local certification complete.**
 
 Progress 1 architecture and threat-model freeze is complete.
 
-The v1 Intelligent Contract and Direct Mode test harness are now implemented.
-Studio Dev deployment has not occurred.
+The v1 Intelligent Contract and Direct Mode test harness are implemented and
+locally certified. Studio Dev deployment has not occurred.
 
 ## Purpose
 
@@ -82,7 +82,7 @@ It is an authorization judgment protocol, not an execution engine.
 ## Release progress
 
 1. Research + architecture + threat-model freeze — **complete**
-2. Contract implementation + local certification — **in progress**
+2. Contract implementation + local certification — **complete**
 3. Studio Dev deployment — pending
 4. Live multi-validator/finality matrix — pending
 5. Reviewer evidence freeze + submission — pending
@@ -94,3 +94,4 @@ See:
 - `docs/THREAT_MODEL.md`
 - `docs/RELEASE_GATES.md`
 - `toolchain-freeze.json`
+- `docs/PROGRESS_2_LOCAL_CERTIFICATION.md`

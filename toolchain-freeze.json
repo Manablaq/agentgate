@@ -28,9 +28,28 @@
   },
   "progress": {
     "architecture_and_threat_model": "COMPLETE",
-    "contract_and_local_certification": "IN_PROGRESS",
+    "contract_and_local_certification": "COMPLETE",
     "studio_dev_deployment": "PENDING",
     "live_finality_matrix": "PENDING",
     "reviewer_evidence_freeze": "PENDING"
+  },
+  "local_certification": {
+    "date": "2026-10-09",
+    "implementation_commit": "607f3d8bc4bc9d530a574106c10e978c405d6b1b",
+    "implementation_tree": "fb9e81715accd8a16d2efbd7a7a75062ba060215",
+    "contract_sha256": "d00260687f7a5b832b173ea8b2a7635e102aca8ab5c56834b5650939ea084d6f",
+    "direct_test_sha256": "881b69bbff06a794acf6eaa68a33331e0f8a21e390dcf74043b6ff5f01578e20",
+    "schema_sha256": "251291df5a6d553cc3d171f1f00c80f980b138dcdb962b816e20b8ae7f5ac83d",
+    "verify_script_sha256": "9a5f6b8b1c7ed302e98fe44070b0afe50c5da41a038df44b3625ce41b18cbb17",
+    "direct_mode_test_count": 39,
+    "strict_typecheck": "PASS",
+    "genvm_check": "PASS",
+    "strict_mocks": true,
+    "pickling_checks": true,
+    "cloudpickle_source": "GenVM RC5 bundled py-lib-cloudpickle",
+    "cloudpickle_version": "3.1.0.dev0",
+    "schema_reproducibility": "PASS",
+    "studio_dev_deployed": false,
+    "blockchain_write_performed": false
   }
 }

@@ -27,11 +27,13 @@
     "source": "genlayerlabs/genlayer-studio@v0.123.0-rc.7"
   },
   "progress": {
+    "status_as_of": "2026-10-10",
     "architecture_and_threat_model": "COMPLETE",
     "contract_and_local_certification": "COMPLETE",
-    "studio_dev_deployment": "PENDING",
-    "live_finality_matrix": "PENDING",
-    "reviewer_evidence_freeze": "PENDING"
+    "studio_dev_deployment": "COMPLETE",
+    "live_finality_matrix": "COMPLETE",
+    "reviewer_evidence_freeze": "COMPLETE",
+    "certified_progress5_release_commit": "0ac030b3b68550f8da0a845037d9e12b816af692"
   },
   "local_certification": {
     "date": "2026-10-09",

@@ -22,9 +22,16 @@ frozen certified artifacts.
 - contract SHA-256: `d00260687f7a5b832b173ea8b2a7635e102aca8ab5c56834b5650939ea084d6f`
 - schema SHA-256: `251291df5a6d553cc3d171f1f00c80f980b138dcdb962b816e20b8ae7f5ac83d`
 
-The public release SHA is the `main` commit containing this document. The R50
-release executor records and verifies the exact local/public SHA after the
-single authorized non-force push.
+The certified Progress 5 release commit is
+`0ac030b3b68550f8da0a845037d9e12b816af692`. R51 was the successful release
+executor: it created the single authorized documentation/evidence commit,
+performed the single non-force push, and verified local/public `main` parity.
+R50 stopped before staging, commit, or push.
+
+A Git commit cannot embed its own final SHA without changing that SHA. For that
+reason, this document records the certified Progress 5 release commit above;
+the current public `main` SHA is the GitHub branch head and is revalidated after
+any documentation-only corrective commit.
 
 ## Live finality matrix
 

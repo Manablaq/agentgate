@@ -96,7 +96,7 @@ Required:
 - secret scan passes
 - public repository audit passes
 - current README and reviewer submission summary agree
-- final public `main` SHA recorded
+- certified Progress 5 release commit recorded and current public `main` parity verified
 
 After Progress 5, no contract or evidence mutation is allowed unless a reviewer
 identifies a concrete defect.
@@ -121,5 +121,10 @@ The contract and schema remain frozen at:
 - schema SHA-256:
   `251291df5a6d553cc3d171f1f00c80f980b138dcdb962b816e20b8ae7f5ac83d`
 
-The final public `main` SHA is the containing Progress 5 release commit and is
-verified/recorded by the R50 post-push release-verification artifact.
+The certified Progress 5 release commit is
+`0ac030b3b68550f8da0a845037d9e12b816af692`. R51 performed the single
+authorized non-force push and verified local/public `main` parity; R50 stopped
+before staging, commit, or push. Because a Git commit cannot embed its own SHA
+without changing it, the release commit is recorded here while the current
+public `main` SHA is the GitHub branch head and is revalidated after any
+documentation-only corrective commit.

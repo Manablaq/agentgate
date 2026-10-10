@@ -4,12 +4,22 @@ Consensus Authorization Firewall for Autonomous AI Agents on GenLayer.
 
 ## Status
 
-**Progress 2/5 — contract implementation and local certification complete.**
+**Progress 5/5 — reviewer evidence freeze and public release complete.**
 
-Progress 1 architecture and threat-model freeze is complete.
+All five fail-closed release gates are complete. The deployed Studio Dev contract
+was verified against the frozen source, and the six-case live
+multi-validator/finality matrix finalized with the expected deterministic
+decisions.
 
-The v1 Intelligent Contract and Direct Mode test harness are implemented and
-locally certified. Studio Dev deployment has not occurred.
+## Deployment
+
+- network: GenLayer Studio Dev
+- RPC: `https://studio-dev.genlayer.com/api`
+- chain ID: `61997`
+- contract: `0xedF4D6A3947386a56E4909c4079fF1737b139C6F`
+- ConsensusMain: `0xb7278A61aa25c888815aFC32Ad3cC52fF24fE575`
+- contract SHA-256: `d00260687f7a5b832b173ea8b2a7635e102aca8ab5c56834b5650939ea084d6f`
+- schema SHA-256: `251291df5a6d553cc3d171f1f00c80f980b138dcdb962b816e20b8ae7f5ac83d`
 
 ## Purpose
 
@@ -43,11 +53,43 @@ when its independently derived vector exactly matches the leader vector.
 
 Storage mutation occurs only after the consensus block returns.
 
-## Target
+## Final live matrix
 
-- GenLayer Studio development preview / Studio Next preview
-- RPC: `https://studio-dev.genlayer.com/api`
-- Chain ID: `61997`
+| Case | Request | Final vector | Final decision |
+| --- | --- | --- | --- |
+| Clearly authorized | `request:1` | `YN` | `AUTHORIZED` |
+| Definite forbidden | `request:2` | `YY` | `BLOCKED` |
+| Incomplete | `request:3` | `YU` | `REVIEW_REQUIRED` |
+| Prompt injection | `request:4` | `YN` | `AUTHORIZED` |
+| Contradictory | `request:5` | `UU` | `REVIEW_REQUIRED` |
+| Corrected revision | `request:6` | `YN` | `AUTHORIZED` |
+
+`request:6` is the corrected revision of blocked `request:2` and preserves
+`parent_request_id = request:2`.
+
+Final live state:
+
+- signer nonce: `15`
+- mandate count: `1`
+- request count: `6`
+- all six requests: `RESOLVED`
+
+## Reviewer evidence
+
+The immutable tracked evidence set is rooted at
+`evidence/progress4/MANIFEST.json`.
+
+The manifest binds every copied reviewer-evidence artifact to its frozen
+SHA-256 and references repository-tracked paths only. The final public release
+SHA is the `main` commit containing this README; the release executor verifies
+local/public `main` parity after the non-force push and records that exact SHA
+in its post-push release-verification artifact.
+
+See `docs/REVIEWER_SUBMISSION_SUMMARY.md` for the reviewer-facing release
+summary.
+
+## Target and pinned toolchain
+
 - Studio: `v0.123.0-rc.7`
 - GenVM Manager: `v0.6.0-rc5`
 - GenLayer CLI: `0.40.0-rc.3`
@@ -83,9 +125,9 @@ It is an authorization judgment protocol, not an execution engine.
 
 1. Research + architecture + threat-model freeze — **complete**
 2. Contract implementation + local certification — **complete**
-3. Studio Dev deployment — pending
-4. Live multi-validator/finality matrix — pending
-5. Reviewer evidence freeze + submission — pending
+3. Studio Dev deployment — **complete**
+4. Live multi-validator/finality matrix — **complete**
+5. Reviewer evidence freeze + submission preparation — **complete**
 
 See:
 
@@ -93,5 +135,7 @@ See:
 - `docs/ARCHITECTURE_FREEZE.md`
 - `docs/THREAT_MODEL.md`
 - `docs/RELEASE_GATES.md`
-- `toolchain-freeze.json`
 - `docs/PROGRESS_2_LOCAL_CERTIFICATION.md`
+- `docs/REVIEWER_SUBMISSION_SUMMARY.md`
+- `evidence/progress4/MANIFEST.json`
+- `toolchain-freeze.json`

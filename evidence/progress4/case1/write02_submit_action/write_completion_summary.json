@@ -1,0 +1,22 @@
+{
+  "authorizationConsumed": true,
+  "blindRetryPerformed": false,
+  "consensusMaxRotations": 1,
+  "decodedReturnVerified": true,
+  "executionResult": "FINISHED_WITH_RETURN",
+  "expectedDecodedReturn": "request:1",
+  "feeValueWei": 50000000000005176,
+  "finalStatus": "FINALIZED",
+  "finalityStatusJournalSha256": "60e599ec11dc4545c660cf48ef872fd7337fc58fdaeb6a5f570783200097f2e5",
+  "finalizedTransactionSha256": "e8b9de23405a4ff935775e00c802435509c02cd42832f63384c0ad78ca884add",
+  "leaderOnly": false,
+  "method": "submit_action",
+  "numInitialValidators": 5,
+  "ordinal": 2,
+  "postStateGate": "after_write_2",
+  "postStateVerified": true,
+  "schema": "agentgate-progress4-stage1-recovery-v4-r43-write-completion-v1",
+  "signerNonce": 3,
+  "submissionAttemptCount": 1,
+  "transactionId": "0x7931b336d817d63dd60041bf9982e2f551ad332ec89c86b963bba9f1bec4e3d7"
+}

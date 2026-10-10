@@ -100,3 +100,26 @@ Required:
 
 After Progress 5, no contract or evidence mutation is allowed unless a reviewer
 identifies a concrete defect.
+
+## Certified release status
+
+The five release gates are certified complete for the public AgentGate release:
+
+1. Progress 1/5 — complete
+2. Progress 2/5 — complete
+3. Progress 3/5 — complete
+4. Progress 4/5 — complete
+5. Progress 5/5 — complete
+
+Progress 4 finalized all six required multi-validator cases. The tracked
+reviewer evidence is rooted at `evidence/progress4/MANIFEST.json`.
+
+The contract and schema remain frozen at:
+
+- contract SHA-256:
+  `d00260687f7a5b832b173ea8b2a7635e102aca8ab5c56834b5650939ea084d6f`
+- schema SHA-256:
+  `251291df5a6d553cc3d171f1f00c80f980b138dcdb962b816e20b8ae7f5ac83d`
+
+The final public `main` SHA is the containing Progress 5 release commit and is
+verified/recorded by the R50 post-push release-verification artifact.

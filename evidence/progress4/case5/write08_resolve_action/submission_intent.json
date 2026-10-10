@@ -1,0 +1,23 @@
+{
+  "blindRetryAuthorized": false,
+  "case": 5,
+  "chainId": 61997,
+  "consensusMain": "0xb7278A61aa25c888815aFC32Ad3cC52fF24fE575",
+  "consensusMaxRotations": 3,
+  "contractAddress": "0xedF4D6A3947386a56E4909c4079fF1737b139C6F",
+  "feeValueWei": 100000000000010352,
+  "laterWriteMayProceedOnlyAfterThisWriteFinalityAndStateGate": true,
+  "leaderOnly": false,
+  "method": "resolve_action",
+  "numInitialValidators": 5,
+  "precomputedTransactionId": "0xb1d7f0a09fd31f7a697db1714857bca6f3cc2da78d4074a3dd952f736fd309fc",
+  "remainingOrdinal": 8,
+  "remainingSequenceSha256": "de0897b14e8089459fe210f919c0670c51a583b9bdcd8cb348ea9ee114a67433",
+  "schema": "agentgate-progress4-remaining-matrix-submission-intent-r47-v1",
+  "signedRawBytesSha256": "06320b9bc8b0d533baa0692a439fc535f40ef6ce5a23f388f4d87d9b9988a70e",
+  "signedRawHexFileSha256": "b2d27603a3d6d2d7f3fcb8f26f6e804f2ccfb458dfc04e14ab1a4dde8bfc98ce",
+  "signer": "0x5bB49021001200fE8156a81c7fcF097e535e7181",
+  "signerNonce": 12,
+  "submissionAttemptCount": 1,
+  "submissionPayloadSha256": "cff38393eebf2a76b6978087a9e84c7b894d22f10c1c7b7a407addc1b4c4c6d6"
+}

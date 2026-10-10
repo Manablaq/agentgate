@@ -1,0 +1,528 @@
+{
+  "chainId": 61997,
+  "contractAddress": "0xedF4D6A3947386a56E4909c4079fF1737b139C6F",
+  "contractSha256": "d00260687f7a5b832b173ea8b2a7635e102aca8ab5c56834b5650939ea084d6f",
+  "itemCount": 86,
+  "items": [
+    {
+      "bytes": 4201,
+      "kind": "case1-result",
+      "path": "evidence/progress4/case1/progress4_stage1_recovery_v4_executor_result.json",
+      "sha256": "52cad1249ad3c76043f9c4e2293d2c1a22fb3f98cb19402045db21933389878b"
+    },
+    {
+      "bytes": 165,
+      "kind": "consensus-progression",
+      "path": "evidence/progress4/case1/write01_create_mandate/finality_status_journal.txt",
+      "sha256": "60e599ec11dc4545c660cf48ef872fd7337fc58fdaeb6a5f570783200097f2e5"
+    },
+    {
+      "bytes": 53982,
+      "kind": "finalized-receipt",
+      "path": "evidence/progress4/case1/write01_create_mandate/finalized_transaction.raw.json",
+      "sha256": "089db6fd60ff96061464a9ad7f8dedbfa4e6059bdd87b43a2d9fa9b2cc365f18"
+    },
+    {
+      "bytes": 67,
+      "kind": "transaction-identity",
+      "path": "evidence/progress4/case1/write01_create_mandate/precomputed_transaction_id.txt",
+      "sha256": "bd83295a5e79bb48fcb1c1a649764918cf142221d2a7ba7ed00fc3aae32f8ff1"
+    },
+    {
+      "bytes": 1097,
+      "kind": "submission-intent",
+      "path": "evidence/progress4/case1/write01_create_mandate/submission_intent.json",
+      "sha256": "dca7a097107f8bbc6a5cabf3ac84d2d97319625c3e8ab9c88f8c3de59f7f1483"
+    },
+    {
+      "bytes": 105,
+      "kind": "raw-submission-response",
+      "path": "evidence/progress4/case1/write01_create_mandate/submission_response.raw.json",
+      "sha256": "5e73409ff7f09d9084aa298cdced2ec4e60f2980a0e2a87681293d0968cc97a1"
+    },
+    {
+      "bytes": 864,
+      "kind": "completion-summary",
+      "path": "evidence/progress4/case1/write01_create_mandate/write_completion_summary.json",
+      "sha256": "45fce311849e5ef6a4de5c547e3ab7f2168af961f2a385f40915efe85e4b1bf6"
+    },
+    {
+      "bytes": 165,
+      "kind": "consensus-progression",
+      "path": "evidence/progress4/case1/write02_submit_action/finality_status_journal.txt",
+      "sha256": "60e599ec11dc4545c660cf48ef872fd7337fc58fdaeb6a5f570783200097f2e5"
+    },
+    {
+      "bytes": 53464,
+      "kind": "finalized-receipt",
+      "path": "evidence/progress4/case1/write02_submit_action/finalized_transaction.raw.json",
+      "sha256": "e8b9de23405a4ff935775e00c802435509c02cd42832f63384c0ad78ca884add"
+    },
+    {
+      "bytes": 67,
+      "kind": "transaction-identity",
+      "path": "evidence/progress4/case1/write02_submit_action/precomputed_transaction_id.txt",
+      "sha256": "9f44514130ff36eb053326cd40b59f02c469216bdca13eb39fb5d017f49b45fd"
+    },
+    {
+      "bytes": 1096,
+      "kind": "submission-intent",
+      "path": "evidence/progress4/case1/write02_submit_action/submission_intent.json",
+      "sha256": "d617a9d7960bde09720fa1a0517d9faf1353ca2579ebba4160876d7c7d4e73da"
+    },
+    {
+      "bytes": 105,
+      "kind": "raw-submission-response",
+      "path": "evidence/progress4/case1/write02_submit_action/submission_response.raw.json",
+      "sha256": "872e79555fe62e5ef35463ad218340b54629b2c36b8253596a10ba78423cc5ff"
+    },
+    {
+      "bytes": 863,
+      "kind": "completion-summary",
+      "path": "evidence/progress4/case1/write02_submit_action/write_completion_summary.json",
+      "sha256": "73dd052dbbcbb05cbcaca3f1ec061915b2841585c11126ca0912da10755e71f2"
+    },
+    {
+      "bytes": 209,
+      "kind": "consensus-progression",
+      "path": "evidence/progress4/case1/write03_resolve_action/finality_status_journal.txt",
+      "sha256": "eed17b5a01f98b61ce8999ad65dc893949e60856836ac926b47d1cb8eebe85d8"
+    },
+    {
+      "bytes": 53533,
+      "kind": "finalized-receipt",
+      "path": "evidence/progress4/case1/write03_resolve_action/finalized_transaction.raw.json",
+      "sha256": "53add31efded59efb84d5f5015a5d6e1a9a0ff32a8390bbdc5d71772be3fb855"
+    },
+    {
+      "bytes": 67,
+      "kind": "transaction-identity",
+      "path": "evidence/progress4/case1/write03_resolve_action/precomputed_transaction_id.txt",
+      "sha256": "0ae3f2d34e30917f693feb137e7d5a9736414ae1ae5c067993fd9420557a218d"
+    },
+    {
+      "bytes": 1098,
+      "kind": "submission-intent",
+      "path": "evidence/progress4/case1/write03_resolve_action/submission_intent.json",
+      "sha256": "fffcc86db9af2bc33cfc40f60e6d5da2550203be7df7ba8a4ba8f775b5d88ab0"
+    },
+    {
+      "bytes": 105,
+      "kind": "raw-submission-response",
+      "path": "evidence/progress4/case1/write03_resolve_action/submission_response.raw.json",
+      "sha256": "19ce85623ea123a77b0caba111190304f6fe0d1a0b63d6e1bcdfdd1772e57467"
+    },
+    {
+      "bytes": 866,
+      "kind": "completion-summary",
+      "path": "evidence/progress4/case1/write03_resolve_action/write_completion_summary.json",
+      "sha256": "a9fa8652bcba736b36458e79efaa42a968000398567daee9fdfa7d763f810365"
+    },
+    {
+      "bytes": 151,
+      "kind": "consensus-progression",
+      "path": "evidence/progress4/case2/write01_submit_action/finality_status_journal.txt",
+      "sha256": "0ff4382519626f5f5458658487de1fbfac95cb50bba7afb1eee0cb45a735f24d"
+    },
+    {
+      "bytes": 52374,
+      "kind": "finalized-receipt",
+      "path": "evidence/progress4/case2/write01_submit_action/finalized_transaction.raw.json",
+      "sha256": "efef8ffee20fb5e1c9985b4785b448b49d8eb04174acf262b52065d32b422243"
+    },
+    {
+      "bytes": 67,
+      "kind": "transaction-identity",
+      "path": "evidence/progress4/case2/write01_submit_action/precomputed_transaction_id.txt",
+      "sha256": "02404ea1623df8c28751c810793ec01f1c4734d882ffe1c7605a1381d9fc9960"
+    },
+    {
+      "bytes": 1113,
+      "kind": "submission-intent",
+      "path": "evidence/progress4/case2/write01_submit_action/submission_intent.json",
+      "sha256": "304ebce7e0c39eacaa34858e29205ae2434166f580bc83dab74bce8be66ea5e1"
+    },
+    {
+      "bytes": 105,
+      "kind": "raw-submission-response",
+      "path": "evidence/progress4/case2/write01_submit_action/submission_response.raw.json",
+      "sha256": "8d11d169dcdcd3e7e7a1c77d71c508915260643ae7539ebaf4425fe5f742c53c"
+    },
+    {
+      "bytes": 997,
+      "kind": "completion-summary",
+      "path": "evidence/progress4/case2/write01_submit_action/write_completion_summary.json",
+      "sha256": "42e7c79b37009af254ccea1bd36acb6f1f6f770ef75b43c3a57924635e523cc6"
+    },
+    {
+      "bytes": 207,
+      "kind": "consensus-progression",
+      "path": "evidence/progress4/case2/write02_resolve_action/finality_status_journal.txt",
+      "sha256": "7ce40a262b7858e4e69c5c30042f21827d6a8a0685f56d62295727e030fe6a0e"
+    },
+    {
+      "bytes": 53451,
+      "kind": "finalized-receipt",
+      "path": "evidence/progress4/case2/write02_resolve_action/finalized_transaction.raw.json",
+      "sha256": "5bfff22e0aa67254d39a5a773ffc97de20f3720e8ca52c7cc4a7f712a08754e0"
+    },
+    {
+      "bytes": 67,
+      "kind": "transaction-identity",
+      "path": "evidence/progress4/case2/write02_resolve_action/precomputed_transaction_id.txt",
+      "sha256": "38b78f803b4d7e3357240156766f5b139535b1fb279c48d2501fd3f6cee22ced"
+    },
+    {
+      "bytes": 1115,
+      "kind": "submission-intent",
+      "path": "evidence/progress4/case2/write02_resolve_action/submission_intent.json",
+      "sha256": "df1628a33f584b6392f45c2bcec173a99a520c3e19c2f47e92265d22e4caad33"
+    },
+    {
+      "bytes": 105,
+      "kind": "raw-submission-response",
+      "path": "evidence/progress4/case2/write02_resolve_action/submission_response.raw.json",
+      "sha256": "a53d7a4af18d3905fc260d623f91ce28d555e8b533589b77035224ab40586362"
+    },
+    {
+      "bytes": 1001,
+      "kind": "completion-summary",
+      "path": "evidence/progress4/case2/write02_resolve_action/write_completion_summary.json",
+      "sha256": "fce2b11c9e4acedcdc3c2d5d6957bf807394fd4fc7b0c658c661fe3c392c5dac"
+    },
+    {
+      "bytes": 151,
+      "kind": "consensus-progression",
+      "path": "evidence/progress4/case3/write03_submit_action/finality_status_journal.txt",
+      "sha256": "0ff4382519626f5f5458658487de1fbfac95cb50bba7afb1eee0cb45a735f24d"
+    },
+    {
+      "bytes": 52676,
+      "kind": "finalized-receipt",
+      "path": "evidence/progress4/case3/write03_submit_action/finalized_transaction.raw.json",
+      "sha256": "47440ce13504a52b9e4becc99cae5d800f9471e47a7f807ea92866b7272c3739"
+    },
+    {
+      "bytes": 67,
+      "kind": "transaction-identity",
+      "path": "evidence/progress4/case3/write03_submit_action/precomputed_transaction_id.txt",
+      "sha256": "e5d6140bd0ad480b0379f524d859937f7d1dbb653db1b543f953a802bb2fc222"
+    },
+    {
+      "bytes": 1113,
+      "kind": "submission-intent",
+      "path": "evidence/progress4/case3/write03_submit_action/submission_intent.json",
+      "sha256": "845e32a4838cdabeddd8639bcc54a3c293d9b4ce8dee91fbaefb3ddb92ea30c6"
+    },
+    {
+      "bytes": 105,
+      "kind": "raw-submission-response",
+      "path": "evidence/progress4/case3/write03_submit_action/submission_response.raw.json",
+      "sha256": "9119bc776d47d8f9c146652935145f30a15345764409405c63c0674d9040a5ca"
+    },
+    {
+      "bytes": 997,
+      "kind": "completion-summary",
+      "path": "evidence/progress4/case3/write03_submit_action/write_completion_summary.json",
+      "sha256": "f2e8d087da622c948520f797913d67f4a4731ecd69088ae9af236e9e1ef0625d"
+    },
+    {
+      "bytes": 206,
+      "kind": "consensus-progression",
+      "path": "evidence/progress4/case3/write04_resolve_action/finality_status_journal.txt",
+      "sha256": "e6eb3bdc05ba0e5cda69504e5443a3ce402fe30ce71b4558cc0f419c87312b92"
+    },
+    {
+      "bytes": 53633,
+      "kind": "finalized-receipt",
+      "path": "evidence/progress4/case3/write04_resolve_action/finalized_transaction.raw.json",
+      "sha256": "727d89ef644f2ce9b79db7cf1d7d3d2f0769ce2b2dc3413ed24f14a2ba9b0293"
+    },
+    {
+      "bytes": 67,
+      "kind": "transaction-identity",
+      "path": "evidence/progress4/case3/write04_resolve_action/precomputed_transaction_id.txt",
+      "sha256": "8e88702f5faafabea0a8eb95cd2e81f584124debc2c9c7461f28ba91672373ff"
+    },
+    {
+      "bytes": 1115,
+      "kind": "submission-intent",
+      "path": "evidence/progress4/case3/write04_resolve_action/submission_intent.json",
+      "sha256": "f1cedfc077c4647f5cd2c58a38410d9442edd8c2c9d6c3272f858abcd8b5a533"
+    },
+    {
+      "bytes": 105,
+      "kind": "raw-submission-response",
+      "path": "evidence/progress4/case3/write04_resolve_action/submission_response.raw.json",
+      "sha256": "c835e0f43c80ecec298a01a95c1350e416cf7139f125d7c0ac151112f9053d32"
+    },
+    {
+      "bytes": 1009,
+      "kind": "completion-summary",
+      "path": "evidence/progress4/case3/write04_resolve_action/write_completion_summary.json",
+      "sha256": "5460ca7394a1629b279246a3096670b6c433ad1baef7063bd6c8b876ff0c7491"
+    },
+    {
+      "bytes": 151,
+      "kind": "consensus-progression",
+      "path": "evidence/progress4/case4/write05_submit_action/finality_status_journal.txt",
+      "sha256": "0ff4382519626f5f5458658487de1fbfac95cb50bba7afb1eee0cb45a735f24d"
+    },
+    {
+      "bytes": 53327,
+      "kind": "finalized-receipt",
+      "path": "evidence/progress4/case4/write05_submit_action/finalized_transaction.raw.json",
+      "sha256": "759b0159ae70c8ee54053a507426247bdabcee17d5b6e9dcdc6bfbc1b795e154"
+    },
+    {
+      "bytes": 67,
+      "kind": "transaction-identity",
+      "path": "evidence/progress4/case4/write05_submit_action/precomputed_transaction_id.txt",
+      "sha256": "c613a7ef33f604c0ab2c233c5dae63ed5e4b15651064c531cb368ab67c2f50ad"
+    },
+    {
+      "bytes": 1113,
+      "kind": "submission-intent",
+      "path": "evidence/progress4/case4/write05_submit_action/submission_intent.json",
+      "sha256": "1e35b78c44ad9a477be21ada11e7ca72167aa0109f4f8ec6ba4c316860736cbf"
+    },
+    {
+      "bytes": 105,
+      "kind": "raw-submission-response",
+      "path": "evidence/progress4/case4/write05_submit_action/submission_response.raw.json",
+      "sha256": "e9386b2907ff988d2b250772d5dbe825b9daaed8858b52537d341c712a894ab8"
+    },
+    {
+      "bytes": 997,
+      "kind": "completion-summary",
+      "path": "evidence/progress4/case4/write05_submit_action/write_completion_summary.json",
+      "sha256": "7dce02954d381296d8be73e25feabeab5254eb9f718e7d5071860c4a1a79d097"
+    },
+    {
+      "bytes": 209,
+      "kind": "consensus-progression",
+      "path": "evidence/progress4/case4/write06_resolve_action/finality_status_journal.txt",
+      "sha256": "5a13824b6cbc680009164c528a02c6013adb9ea61a894cdfaa7671e0c22eb839"
+    },
+    {
+      "bytes": 53607,
+      "kind": "finalized-receipt",
+      "path": "evidence/progress4/case4/write06_resolve_action/finalized_transaction.raw.json",
+      "sha256": "6bf9414e18c40d5fa039ab02b532bc44c2e24b373aa052a334c9178e5536481e"
+    },
+    {
+      "bytes": 67,
+      "kind": "transaction-identity",
+      "path": "evidence/progress4/case4/write06_resolve_action/precomputed_transaction_id.txt",
+      "sha256": "1aa1fb7b2fd4db19d84ddb3e6fee288d7fb578c8c16311cc192263492aa7f8f3"
+    },
+    {
+      "bytes": 1116,
+      "kind": "submission-intent",
+      "path": "evidence/progress4/case4/write06_resolve_action/submission_intent.json",
+      "sha256": "2ea44aebb05ce753e33c4a520bea1cc64439d6f02777ae98a3490766c938a160"
+    },
+    {
+      "bytes": 105,
+      "kind": "raw-submission-response",
+      "path": "evidence/progress4/case4/write06_resolve_action/submission_response.raw.json",
+      "sha256": "4b60a6d282b9389415bc6d659244cf75ec36b479c8e95d190b79df4a844aa4dd"
+    },
+    {
+      "bytes": 1005,
+      "kind": "completion-summary",
+      "path": "evidence/progress4/case4/write06_resolve_action/write_completion_summary.json",
+      "sha256": "9a025109a6a5ab07ca275a75cb8a1923f12bdcaf5f0ae6f0b310d3718d35a856"
+    },
+    {
+      "bytes": 151,
+      "kind": "consensus-progression",
+      "path": "evidence/progress4/case5/write07_submit_action/finality_status_journal.txt",
+      "sha256": "50697138ec723b9af623fb29cc6ebe015f640754bf77a3644d2b265173458a4d"
+    },
+    {
+      "bytes": 53281,
+      "kind": "finalized-receipt",
+      "path": "evidence/progress4/case5/write07_submit_action/finalized_transaction.raw.json",
+      "sha256": "dec723a32692bf87e19765ba1e66207579a86d670cb2645e80caefa5c8ffe7e7"
+    },
+    {
+      "bytes": 67,
+      "kind": "transaction-identity",
+      "path": "evidence/progress4/case5/write07_submit_action/precomputed_transaction_id.txt",
+      "sha256": "fb966bf86d02487397c7b57d587c5c6d51ce7b5d6aef52f6694af56e42c03fe0"
+    },
+    {
+      "bytes": 1114,
+      "kind": "submission-intent",
+      "path": "evidence/progress4/case5/write07_submit_action/submission_intent.json",
+      "sha256": "238c6bb433747f488f8df78bb0696527af8a637ff2ced1e7b7d2225f7c0c5871"
+    },
+    {
+      "bytes": 105,
+      "kind": "raw-submission-response",
+      "path": "evidence/progress4/case5/write07_submit_action/submission_response.raw.json",
+      "sha256": "eed3ba772ba437a2aac90d7e187ff31c2debe7fc9ed92a9c8e48a981b0357289"
+    },
+    {
+      "bytes": 998,
+      "kind": "completion-summary",
+      "path": "evidence/progress4/case5/write07_submit_action/write_completion_summary.json",
+      "sha256": "75a4f62b67b8ce28f517512ea9f8ac86d418e9dd6110da3d209bf33bc853a865"
+    },
+    {
+      "bytes": 210,
+      "kind": "consensus-progression",
+      "path": "evidence/progress4/case5/write08_resolve_action/finality_status_journal.txt",
+      "sha256": "fd37b652bbb2df5e5c4dde4cdacb32ba9b400eda646e4b8e61b461b0b3f2b656"
+    },
+    {
+      "bytes": 57434,
+      "kind": "finalized-receipt",
+      "path": "evidence/progress4/case5/write08_resolve_action/finalized_transaction.raw.json",
+      "sha256": "62b952c9788eca6a36d86e6ca27f46740fe115a22901e7a1bf9942281e7d9aa6"
+    },
+    {
+      "bytes": 67,
+      "kind": "transaction-identity",
+      "path": "evidence/progress4/case5/write08_resolve_action/precomputed_transaction_id.txt",
+      "sha256": "ba313bf780147fbcec842b1884f644a82490d11d830362c894fc8d7348573a8e"
+    },
+    {
+      "bytes": 1116,
+      "kind": "submission-intent",
+      "path": "evidence/progress4/case5/write08_resolve_action/submission_intent.json",
+      "sha256": "64b5a2814083b421d6a373ea6042064dfdbdfbfbf8f94b0576eccb981ab5ac5a"
+    },
+    {
+      "bytes": 105,
+      "kind": "raw-submission-response",
+      "path": "evidence/progress4/case5/write08_resolve_action/submission_response.raw.json",
+      "sha256": "d308ab53a0254ca7725ded660dab58c3d78a8ca7329734d01dc2e35a811e2ea3"
+    },
+    {
+      "bytes": 1010,
+      "kind": "completion-summary",
+      "path": "evidence/progress4/case5/write08_resolve_action/write_completion_summary.json",
+      "sha256": "83c0ac4ffa85d61726dacff2ce0b3c0e6a715726ab1b5ee01d00fa94da787209"
+    },
+    {
+      "bytes": 151,
+      "kind": "consensus-progression",
+      "path": "evidence/progress4/case6/write09_submit_action/finality_status_journal.txt",
+      "sha256": "0ff4382519626f5f5458658487de1fbfac95cb50bba7afb1eee0cb45a735f24d"
+    },
+    {
+      "bytes": 54151,
+      "kind": "finalized-receipt",
+      "path": "evidence/progress4/case6/write09_submit_action/finalized_transaction.raw.json",
+      "sha256": "87581e68a9e60490828aab196a7a7759f6caff71727c7f61185a102bb2004825"
+    },
+    {
+      "bytes": 67,
+      "kind": "transaction-identity",
+      "path": "evidence/progress4/case6/write09_submit_action/precomputed_transaction_id.txt",
+      "sha256": "2ea4062a7e5cb5e21c7c055010f699c42c0bf197042159b29b35fec3c12e17c6"
+    },
+    {
+      "bytes": 1114,
+      "kind": "submission-intent",
+      "path": "evidence/progress4/case6/write09_submit_action/submission_intent.json",
+      "sha256": "207c11a846f149f792c6bc8f233467b51bf145fa2b41cec2fce7118eb609d154"
+    },
+    {
+      "bytes": 105,
+      "kind": "raw-submission-response",
+      "path": "evidence/progress4/case6/write09_submit_action/submission_response.raw.json",
+      "sha256": "d2d2a03e68cc0cab49b6e04ba3c124a6071acf9d3242dcd32968a1eb133f2306"
+    },
+    {
+      "bytes": 998,
+      "kind": "completion-summary",
+      "path": "evidence/progress4/case6/write09_submit_action/write_completion_summary.json",
+      "sha256": "0d6dcd23101a3b2387e0d9de292370bd620839dc0b880faf6de78ebd68a2c039"
+    },
+    {
+      "bytes": 207,
+      "kind": "consensus-progression",
+      "path": "evidence/progress4/case6/write10_resolve_action/finality_status_journal.txt",
+      "sha256": "58ec610fe53bae733b9a96145130a08cb68d5e004056f1749afa87c65fcddf29"
+    },
+    {
+      "bytes": 53630,
+      "kind": "finalized-receipt",
+      "path": "evidence/progress4/case6/write10_resolve_action/finalized_transaction.raw.json",
+      "sha256": "6f0db8140f09a9358ab43c00fa13eb43e16ef849c675d9b4b583d4427ffae1f8"
+    },
+    {
+      "bytes": 67,
+      "kind": "transaction-identity",
+      "path": "evidence/progress4/case6/write10_resolve_action/precomputed_transaction_id.txt",
+      "sha256": "874facf7f1dd1af116c0657459ba963c0efe4797f00c5c49cbf364fa35a16978"
+    },
+    {
+      "bytes": 1117,
+      "kind": "submission-intent",
+      "path": "evidence/progress4/case6/write10_resolve_action/submission_intent.json",
+      "sha256": "52808c562145e67674f235bff0ecd9b01de38c9257449991a5d3ae3cd6ede07f"
+    },
+    {
+      "bytes": 105,
+      "kind": "raw-submission-response",
+      "path": "evidence/progress4/case6/write10_resolve_action/submission_response.raw.json",
+      "sha256": "102b5d5e5ef41732c9b521e2cce4b7de4734af5e505f973d027a9fca3760ac72"
+    },
+    {
+      "bytes": 1007,
+      "kind": "completion-summary",
+      "path": "evidence/progress4/case6/write10_resolve_action/write_completion_summary.json",
+      "sha256": "2b649846f8a2d7918bc5502e4b4a6f78f88afb26daf303f9683eebff9216df9b"
+    },
+    {
+      "bytes": 3009,
+      "kind": "final-live-state",
+      "path": "evidence/progress4/final_live_state.json",
+      "sha256": "49d5e764635b0bf022c842aea2dab633e4808ef0527fd5faf539c99932c6047e"
+    },
+    {
+      "bytes": 1712,
+      "kind": "fee-envelope",
+      "path": "evidence/progress4/progress4_execution_fee_envelope_v2.json",
+      "sha256": "bdb3048bcb767ac5d66571b0c7e430d85ce906be0fc11dccb2282043b6b3f568"
+    },
+    {
+      "bytes": 17351,
+      "kind": "payload-manifest",
+      "path": "evidence/progress4/progress4_execution_payload_manifest_v2.json",
+      "sha256": "5f0374dfb764e70809c68230485ae90970894fa36578bedbf3ce0e415ebf0290"
+    },
+    {
+      "bytes": 9382,
+      "kind": "matrix-plan",
+      "path": "evidence/progress4/progress4_live_finality_matrix_plan_v1.json",
+      "sha256": "68e77c4f9cd7189d4293ab0d76912aec44bddf6b31f359c786f0858198f9b797"
+    },
+    {
+      "bytes": 12653,
+      "kind": "remaining-cases-result",
+      "path": "evidence/progress4/progress4_remaining_five_cases_executor_result.json",
+      "sha256": "4162fd2426357be074eb044186048e2b873b4cec84eb3e6658d0dfcd13f825cc"
+    },
+    {
+      "bytes": 7936,
+      "kind": "recovery-plan",
+      "path": "evidence/progress4/recovery/progress4_stage1_case1_recovery_plan_v4.json",
+      "sha256": "8e81d1c1be14281a3adb9fafeb3352e462516da9327b8af04ee5870b7151f36c"
+    },
+    {
+      "bytes": 11559,
+      "kind": "recovery-forensics",
+      "path": "evidence/progress4/recovery/write1_error_forensics_report.json",
+      "sha256": "9f4ad865287909d9e848dde46e36d17788237f28a9352aafac2cf81577958aba"
+    }
+  ],
+  "progress4ResultSha256": "4162fd2426357be074eb044186048e2b873b4cec84eb3e6658d0dfcd13f825cc",
+  "schema": "agentgate-progress4-reviewer-evidence-manifest-v1",
+  "schemaSha256": "251291df5a6d553cc3d171f1f00c80f980b138dcdb962b816e20b8ae7f5ac83d",
+  "sourceEvidenceManifestSha256": "2bea68a85492c499eb69b80843b27df88f9fc9dfe59044e3b281070c9017e7dd"
+}

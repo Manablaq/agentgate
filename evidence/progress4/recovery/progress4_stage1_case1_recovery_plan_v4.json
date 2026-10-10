@@ -1,0 +1,164 @@
+{
+  "additionalDeploymentAuthorized": false,
+  "additionalFundingAuthorized": false,
+  "chainId": 61997,
+  "contractAddress": "0xedF4D6A3947386a56E4909c4079fF1737b139C6F",
+  "expectedAfterWrite1": {
+    "mandateCount": 1,
+    "requestCount": 0,
+    "returnedId": "mandate:1",
+    "signerNonce": 3
+  },
+  "expectedAfterWrite2": {
+    "mandateCount": 1,
+    "requestCount": 1,
+    "requestState": "OPEN",
+    "returnedId": "request:1",
+    "signerNonce": 4
+  },
+  "expectedAfterWrite3": {
+    "decision": "AUTHORIZED",
+    "mandateCount": 1,
+    "requestCount": 1,
+    "requestId": "request:1",
+    "requestState": "RESOLVED",
+    "signerNonce": 5,
+    "vector": "YN"
+  },
+  "failedWrite1AuthorizationConsumed": true,
+  "failedWrite1RetryAuthorized": false,
+  "failedWrite1TransactionId": "0x465561904e6a7475d2a1955d7a919381e43dc006cea2208c9fc4d1538731b83c",
+  "gitMutationAuthorized": false,
+  "leaderOnlyAllowed": false,
+  "llmInferenceAuthorized": false,
+  "networkMutationAuthorized": false,
+  "numInitialValidators": 5,
+  "providerMutationAuthorized": false,
+  "providerProbeAuthorized": false,
+  "purpose": "Recover Case 1 after failed nonce-1 create_mandate caused by plain-string address encoding",
+  "recoveryWritesAuthorized": false,
+  "schema": "agentgate-progress4-stage1-case1-recovery-plan-v4",
+  "startingMandateCount": 0,
+  "startingRequestCount": 0,
+  "startingSigner": "0x5bB49021001200fE8156a81c7fcF097e535e7181",
+  "startingSignerNonce": 2,
+  "typedAddressCorrection": {
+    "argumentIndex": 1,
+    "correctedContractCalldataSha256": "0b1f6c109fffd8dde0baed4edaf0dbfa82500dd8cab4c2a6898f65061383777e",
+    "correctedSerializedTxDataSha256": "42d96eebfd90a5fa8b716e061e555419248fbf67acc335fcd02838f921dec8da",
+    "fromType": "str",
+    "toType": "CalldataAddress",
+    "writeOrdinal": 1
+  },
+  "v3Write2AndWrite3AuthorizationsSuperseded": true,
+  "v3Write2AuthorizationConsumed": false,
+  "v3Write3AuthorizationConsumed": false,
+  "validatorMutationAuthorized": false,
+  "write2ContractPayloadUnchangedFromR30": true,
+  "write3ContractPayloadUnchangedFromR30": true,
+  "writeCount": 3,
+  "writeSequencingRules": {
+    "blindRetryAllowed": false,
+    "maxSubmissionAttemptsPerWrite": 1,
+    "persistPrecomputedTransactionIdBeforeSubmission": true,
+    "persistRawSubmissionResponseBeforeDecode": true,
+    "persistSignedRawBeforeSubmission": true,
+    "stopOnAnyMismatch": true,
+    "waitForFinalized": true,
+    "write2OnlyAfterWrite1FinalizedAndStateVerified": true,
+    "write3OnlyAfterWrite2FinalizedAndStateVerified": true
+  },
+  "writes": [
+    {
+      "argsDisplay": [
+        "Software services authority",
+        "0x5bB49021001200fE8156a81c7fcF097e535e7181",
+        "[{\"text\":\"The proposed action concerns software development services.\",\"mode\":\"REQUIRE\"},{\"text\":\"The proposed action transfers intellectual property ownership to the vendor.\",\"mode\":\"FORBID\"}]"
+      ],
+      "argsEncoding": [
+        {
+          "type": "str",
+          "value": "Software services authority"
+        },
+        {
+          "type": "CalldataAddress",
+          "value": "0x5bB49021001200fE8156a81c7fcF097e535e7181"
+        },
+        {
+          "type": "str",
+          "value": "[{\"text\":\"The proposed action concerns software development services.\",\"mode\":\"REQUIRE\"},{\"text\":\"The proposed action transfers intellectual property ownership to the vendor.\",\"mode\":\"FORBID\"}]"
+        }
+      ],
+      "case": null,
+      "consensusMaxRotations": 1,
+      "contractCalldataHex": "0x1600746372656174655f6d616e6461746504617267731ddc01536f66747761726520736572766963657320617574686f72697479185bb49021001200fe8156a81c7fcf097e535e71818c0c5b7b2274657874223a225468652070726f706f73656420616374696f6e20636f6e6365726e7320736f66747761726520646576656c6f706d656e742073657276696365732e222c226d6f6465223a2252455155495245227d2c7b2274657874223a225468652070726f706f73656420616374696f6e207472616e736665727320696e74656c6c65637475616c2070726f7065727479206f776e65727368697020746f207468652076656e646f722e222c226d6f6465223a22464f52424944227d5d",
+      "contractCalldataSha256": "0b1f6c109fffd8dde0baed4edaf0dbfa82500dd8cab4c2a6898f65061383777e",
+      "expectedDecision": null,
+      "expectedReturn": "mandate:1",
+      "expectedSignerNonce": 2,
+      "expectedVector": null,
+      "feeProfile": "deterministic",
+      "feeValueWei": 50000000000005176,
+      "installedSdkMethodKey": "",
+      "kind": "create_mandate",
+      "leaderOnly": false,
+      "method": "create_mandate",
+      "numInitialValidators": 5,
+      "ordinal": 1,
+      "recoveryOfFailedTransaction": "0x465561904e6a7475d2a1955d7a919381e43dc006cea2208c9fc4d1538731b83c",
+      "serializedTxDataHex": "0xf90110b9010c1600746372656174655f6d616e6461746504617267731ddc01536f66747761726520736572766963657320617574686f72697479185bb49021001200fe8156a81c7fcf097e535e71818c0c5b7b2274657874223a225468652070726f706f73656420616374696f6e20636f6e6365726e7320736f66747761726520646576656c6f706d656e742073657276696365732e222c226d6f6465223a2252455155495245227d2c7b2274657874223a225468652070726f706f73656420616374696f6e207472616e736665727320696e74656c6c65637475616c2070726f7065727479206f776e65727368697020746f207468652076656e646f722e222c226d6f6465223a22464f52424944227d5d80",
+      "serializedTxDataSha256": "42d96eebfd90a5fa8b716e061e555419248fbf67acc335fcd02838f921dec8da",
+      "typedAddressArgumentIndex": 1,
+      "typedAddressCorrection": true
+    },
+    {
+      "args": [
+        "mandate:1",
+        "Engage the vendor for software development services. All intellectual property remains with the principal.",
+        "p4-authorized-v1",
+        ""
+      ],
+      "case": 1,
+      "consensusMaxRotations": 1,
+      "contractCalldataHex": "0x16006c7375626d69745f616374696f6e0461726773254c6d616e646174653a31d406456e67616765207468652076656e646f7220666f7220736f66747761726520646576656c6f706d656e742073657276696365732e20416c6c20696e74656c6c65637475616c2070726f70657274792072656d61696e73207769746820746865207072696e636970616c2e840170342d617574686f72697a65642d763104",
+      "contractCalldataSha256": "67fb8ed642b6dca4a21f0e8c36afc0d4508709ed06d2ec7bc583bc16814a6d29",
+      "expectedDecision": null,
+      "expectedReturn": "request:1",
+      "expectedSignerNonce": 3,
+      "expectedVector": null,
+      "feeProfile": "deterministic",
+      "feeValueWei": 50000000000005176,
+      "kind": "submit_action",
+      "leaderOnly": false,
+      "method": "submit_action",
+      "numInitialValidators": 5,
+      "ordinal": 2,
+      "recoverySequenceShiftedFromSignerNonce": 2,
+      "serializedTxDataHex": "0xf8a2b89f16006c7375626d69745f616374696f6e0461726773254c6d616e646174653a31d406456e67616765207468652076656e646f7220666f7220736f66747761726520646576656c6f706d656e742073657276696365732e20416c6c20696e74656c6c65637475616c2070726f70657274792072656d61696e73207769746820746865207072696e636970616c2e840170342d617574686f72697a65642d76310480",
+      "serializedTxDataSha256": "bb09dfb7846b9239bd6610119e86fabb6f32dbac0fd3d622f5d17faaff97c688"
+    },
+    {
+      "args": [
+        "request:1"
+      ],
+      "case": 1,
+      "consensusMaxRotations": 3,
+      "contractCalldataHex": "0x1600747265736f6c76655f616374696f6e04617267730d4c726571756573743a31",
+      "contractCalldataSha256": "53a8d54edaa3fdf4ad0033b36d83719640e5d79554beb9e2c6748a60c3a5c0db",
+      "expectedDecision": "AUTHORIZED",
+      "expectedReturn": null,
+      "expectedSignerNonce": 4,
+      "expectedVector": "YN",
+      "feeProfile": "resolve",
+      "feeValueWei": 100000000000010352,
+      "kind": "resolve_action",
+      "leaderOnly": false,
+      "method": "resolve_action",
+      "numInitialValidators": 5,
+      "ordinal": 3,
+      "recoverySequenceShiftedFromSignerNonce": 3,
+      "serializedTxDataHex": "0xe3a11600747265736f6c76655f616374696f6e04617267730d4c726571756573743a3180",
+      "serializedTxDataSha256": "299a8b214ae906b6a1bf607c294b8c4d0d6aec5006159e06bdf45e5b501bc2ad"
+    }
+  ]
+}

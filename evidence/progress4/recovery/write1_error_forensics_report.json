@@ -1,0 +1,214 @@
+{
+  "allReceiptSummaries": [
+    {
+      "error_code": null,
+      "error_description": null,
+      "execution_result": "ERROR",
+      "index": 0,
+      "kind": "leader",
+      "model": "policy:dev-sonnet",
+      "node_address": "0xcEf1Baa172d0b4D99Dcc505B36332F26D1088025",
+      "provider": "llm-router",
+      "raw_error": null,
+      "stderr": "Traceback (most recent call last):\n  File \"/py/libs/_genlayer_bootloader.py\", line 162, in <module>\n    _handle_main()\n    ~~~~~~~~~~~~^^\n  File \"/py/libs/_genlayer_bootloader.py\", line 156, in _handle_main\n    _give_result(functools.partial(meth2call, contract_instance, *args, **kwargs))\n    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/py/libs/_genlayer_bootloader.py\", line 61, in _give_result\n    res = res_fn()\n  File \"/contract.py\", line 267, in create_mandate\n    self._require(agent.as_hex != ZERO_ADDRESS, \"MANDATE_AGENT_ZERO\")\n                  ^^^^^^^^^^^^\nAttributeError: 'str' object has no attribute 'as_hex'\n",
+      "stdout": "",
+      "vote": null
+    },
+    {
+      "error_code": null,
+      "error_description": null,
+      "execution_result": "ERROR",
+      "index": 1,
+      "kind": "leader",
+      "model": "policy:dev-sonnet",
+      "node_address": "0xcEf1Baa172d0b4D99Dcc505B36332F26D1088025",
+      "provider": "llm-router",
+      "raw_error": null,
+      "stderr": "Traceback (most recent call last):\n  File \"/py/libs/_genlayer_bootloader.py\", line 162, in <module>\n    _handle_main()\n    ~~~~~~~~~~~~^^\n  File \"/py/libs/_genlayer_bootloader.py\", line 156, in _handle_main\n    _give_result(functools.partial(meth2call, contract_instance, *args, **kwargs))\n    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/py/libs/_genlayer_bootloader.py\", line 61, in _give_result\n    res = res_fn()\n  File \"/contract.py\", line 267, in create_mandate\n    self._require(agent.as_hex != ZERO_ADDRESS, \"MANDATE_AGENT_ZERO\")\n                  ^^^^^^^^^^^^\nAttributeError: 'str' object has no attribute 'as_hex'\n",
+      "stdout": "",
+      "vote": "agree"
+    },
+    {
+      "error_code": null,
+      "error_description": null,
+      "execution_result": "ERROR",
+      "index": 0,
+      "kind": "validator",
+      "model": "policy:dev-gpt-5-4",
+      "node_address": "0x6760cDeC573cf38568C59872ee48B6fED41F8A4c",
+      "provider": "llm-router",
+      "raw_error": null,
+      "stderr": "Traceback (most recent call last):\n  File \"/py/libs/_genlayer_bootloader.py\", line 162, in <module>\n    _handle_main()\n    ~~~~~~~~~~~~^^\n  File \"/py/libs/_genlayer_bootloader.py\", line 156, in _handle_main\n    _give_result(functools.partial(meth2call, contract_instance, *args, **kwargs))\n    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/py/libs/_genlayer_bootloader.py\", line 61, in _give_result\n    res = res_fn()\n  File \"/contract.py\", line 267, in create_mandate\n    self._require(agent.as_hex != ZERO_ADDRESS, \"MANDATE_AGENT_ZERO\")\n                  ^^^^^^^^^^^^\nAttributeError: 'str' object has no attribute 'as_hex'\n",
+      "stdout": "",
+      "vote": "agree"
+    },
+    {
+      "error_code": "CONSENSUS_VALIDATOR_QUORUM_REACHED",
+      "error_description": null,
+      "execution_result": "ERROR",
+      "index": 1,
+      "kind": "validator",
+      "model": null,
+      "node_address": "0xa0435f618c1F27B254998018AEa8Da5C77187852",
+      "provider": null,
+      "raw_error": {
+        "causes": [
+          "VALIDATOR_QUORUM_REACHED"
+        ],
+        "fatal": false
+      },
+      "stderr": "Validator execution cancelled after quorum",
+      "stdout": "",
+      "vote": "idle"
+    },
+    {
+      "error_code": null,
+      "error_description": null,
+      "execution_result": "ERROR",
+      "index": 2,
+      "kind": "validator",
+      "model": "policy:dev-grok",
+      "node_address": "0xA793D9dc0ED9edC1f9F732bB68b5D3AFA934F52D",
+      "provider": "llm-router",
+      "raw_error": null,
+      "stderr": "Traceback (most recent call last):\n  File \"/py/libs/_genlayer_bootloader.py\", line 162, in <module>\n    _handle_main()\n    ~~~~~~~~~~~~^^\n  File \"/py/libs/_genlayer_bootloader.py\", line 156, in _handle_main\n    _give_result(functools.partial(meth2call, contract_instance, *args, **kwargs))\n    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/py/libs/_genlayer_bootloader.py\", line 61, in _give_result\n    res = res_fn()\n  File \"/contract.py\", line 267, in create_mandate\n    self._require(agent.as_hex != ZERO_ADDRESS, \"MANDATE_AGENT_ZERO\")\n                  ^^^^^^^^^^^^\nAttributeError: 'str' object has no attribute 'as_hex'\n",
+      "stdout": "",
+      "vote": "agree"
+    },
+    {
+      "error_code": "CONSENSUS_VALIDATOR_QUORUM_REACHED",
+      "error_description": null,
+      "execution_result": "ERROR",
+      "index": 3,
+      "kind": "validator",
+      "model": null,
+      "node_address": "0x8142E5D1b04f84c3cD995C25AAe31B31F8e0379E",
+      "provider": null,
+      "raw_error": {
+        "causes": [
+          "VALIDATOR_QUORUM_REACHED"
+        ],
+        "fatal": false
+      },
+      "stderr": "Validator execution cancelled after quorum",
+      "stdout": "",
+      "vote": "idle"
+    }
+  ],
+  "chainId": 61997,
+  "errorClassification": "CONTRACT_EXECUTION_OR_REQUIRE_ERROR",
+  "errorReceipts": [
+    {
+      "error_code": null,
+      "error_description": null,
+      "execution_result": "ERROR",
+      "index": 0,
+      "kind": "leader",
+      "model": "policy:dev-sonnet",
+      "node_address": "0xcEf1Baa172d0b4D99Dcc505B36332F26D1088025",
+      "provider": "llm-router",
+      "raw_error": null,
+      "stderr": "Traceback (most recent call last):\n  File \"/py/libs/_genlayer_bootloader.py\", line 162, in <module>\n    _handle_main()\n    ~~~~~~~~~~~~^^\n  File \"/py/libs/_genlayer_bootloader.py\", line 156, in _handle_main\n    _give_result(functools.partial(meth2call, contract_instance, *args, **kwargs))\n    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/py/libs/_genlayer_bootloader.py\", line 61, in _give_result\n    res = res_fn()\n  File \"/contract.py\", line 267, in create_mandate\n    self._require(agent.as_hex != ZERO_ADDRESS, \"MANDATE_AGENT_ZERO\")\n                  ^^^^^^^^^^^^\nAttributeError: 'str' object has no attribute 'as_hex'\n",
+      "stdout": "",
+      "vote": null
+    },
+    {
+      "error_code": null,
+      "error_description": null,
+      "execution_result": "ERROR",
+      "index": 1,
+      "kind": "leader",
+      "model": "policy:dev-sonnet",
+      "node_address": "0xcEf1Baa172d0b4D99Dcc505B36332F26D1088025",
+      "provider": "llm-router",
+      "raw_error": null,
+      "stderr": "Traceback (most recent call last):\n  File \"/py/libs/_genlayer_bootloader.py\", line 162, in <module>\n    _handle_main()\n    ~~~~~~~~~~~~^^\n  File \"/py/libs/_genlayer_bootloader.py\", line 156, in _handle_main\n    _give_result(functools.partial(meth2call, contract_instance, *args, **kwargs))\n    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/py/libs/_genlayer_bootloader.py\", line 61, in _give_result\n    res = res_fn()\n  File \"/contract.py\", line 267, in create_mandate\n    self._require(agent.as_hex != ZERO_ADDRESS, \"MANDATE_AGENT_ZERO\")\n                  ^^^^^^^^^^^^\nAttributeError: 'str' object has no attribute 'as_hex'\n",
+      "stdout": "",
+      "vote": "agree"
+    },
+    {
+      "error_code": null,
+      "error_description": null,
+      "execution_result": "ERROR",
+      "index": 0,
+      "kind": "validator",
+      "model": "policy:dev-gpt-5-4",
+      "node_address": "0x6760cDeC573cf38568C59872ee48B6fED41F8A4c",
+      "provider": "llm-router",
+      "raw_error": null,
+      "stderr": "Traceback (most recent call last):\n  File \"/py/libs/_genlayer_bootloader.py\", line 162, in <module>\n    _handle_main()\n    ~~~~~~~~~~~~^^\n  File \"/py/libs/_genlayer_bootloader.py\", line 156, in _handle_main\n    _give_result(functools.partial(meth2call, contract_instance, *args, **kwargs))\n    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/py/libs/_genlayer_bootloader.py\", line 61, in _give_result\n    res = res_fn()\n  File \"/contract.py\", line 267, in create_mandate\n    self._require(agent.as_hex != ZERO_ADDRESS, \"MANDATE_AGENT_ZERO\")\n                  ^^^^^^^^^^^^\nAttributeError: 'str' object has no attribute 'as_hex'\n",
+      "stdout": "",
+      "vote": "agree"
+    },
+    {
+      "error_code": "CONSENSUS_VALIDATOR_QUORUM_REACHED",
+      "error_description": null,
+      "execution_result": "ERROR",
+      "index": 1,
+      "kind": "validator",
+      "model": null,
+      "node_address": "0xa0435f618c1F27B254998018AEa8Da5C77187852",
+      "provider": null,
+      "raw_error": {
+        "causes": [
+          "VALIDATOR_QUORUM_REACHED"
+        ],
+        "fatal": false
+      },
+      "stderr": "Validator execution cancelled after quorum",
+      "stdout": "",
+      "vote": "idle"
+    },
+    {
+      "error_code": null,
+      "error_description": null,
+      "execution_result": "ERROR",
+      "index": 2,
+      "kind": "validator",
+      "model": "policy:dev-grok",
+      "node_address": "0xA793D9dc0ED9edC1f9F732bB68b5D3AFA934F52D",
+      "provider": "llm-router",
+      "raw_error": null,
+      "stderr": "Traceback (most recent call last):\n  File \"/py/libs/_genlayer_bootloader.py\", line 162, in <module>\n    _handle_main()\n    ~~~~~~~~~~~~^^\n  File \"/py/libs/_genlayer_bootloader.py\", line 156, in _handle_main\n    _give_result(functools.partial(meth2call, contract_instance, *args, **kwargs))\n    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/py/libs/_genlayer_bootloader.py\", line 61, in _give_result\n    res = res_fn()\n  File \"/contract.py\", line 267, in create_mandate\n    self._require(agent.as_hex != ZERO_ADDRESS, \"MANDATE_AGENT_ZERO\")\n                  ^^^^^^^^^^^^\nAttributeError: 'str' object has no attribute 'as_hex'\n",
+      "stdout": "",
+      "vote": "agree"
+    },
+    {
+      "error_code": "CONSENSUS_VALIDATOR_QUORUM_REACHED",
+      "error_description": null,
+      "execution_result": "ERROR",
+      "index": 3,
+      "kind": "validator",
+      "model": null,
+      "node_address": "0x8142E5D1b04f84c3cD995C25AAe31B31F8e0379E",
+      "provider": null,
+      "raw_error": {
+        "causes": [
+          "VALIDATOR_QUORUM_REACHED"
+        ],
+        "fatal": false
+      },
+      "stderr": "Validator execution cancelled after quorum",
+      "stdout": "",
+      "vote": "idle"
+    }
+  ],
+  "executionResult": "FINISHED_WITH_ERROR",
+  "executionResultNumeric": 2,
+  "frozenLiveTransactionCanonicalMatch": false,
+  "frozenTransactionCanonicalSha256": "e40129b523e85c8aeb406d900f1834e9e788ff32b8416d5ca17ecb9c4387d522",
+  "liveTransactionCanonicalSha256": "8c4779198a847815fe203c9e02fb378a98e54e3d0b77a91c3af1c0bb1c00dd94",
+  "mandateCount": 0,
+  "requestCount": 0,
+  "schema": "agentgate-progress4-stage1-write1-error-forensics-r37-v1",
+  "signerNonce": 2,
+  "stateRolledBack": true,
+  "status": "FINALIZED",
+  "transactionId": "0x465561904e6a7475d2a1955d7a919381e43dc006cea2208c9fc4d1538731b83c",
+  "transactionNonce": 1,
+  "write1AuthorizationConsumed": true,
+  "write1RetryAuthorized": false,
+  "write2AuthorizationConsumed": false,
+  "write2Or3SubmissionPerformedByR37": false,
+  "write3AuthorizationConsumed": false
+}
